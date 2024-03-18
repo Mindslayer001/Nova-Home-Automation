@@ -1,42 +1,44 @@
-# Nova Voice Assistant
+# Nove Home Automation
 
-Nova Voice Assistant is a simple Python-based virtual assistant that can perform various tasks through voice commands. It utilizes speech recognition and text-to-speech capabilities to interact with users.
+Nove Home Automation is a comprehensive solution for controlling non-smart home appliances through a user-friendly application available on multiple platforms. This project aims to enhance the convenience and efficiency of managing household devices remotely.
 
 ## Features
 
-- **Voice Recognition**: Nova can understand and interpret voice commands spoken by the user.
-- **Text-to-Speech**: Nova can respond to users with synthesized speech using the pyttsx3 library.
-- **Web Search**: Nova can perform web searches using the default web browser.
-- **System Commands**: Nova can execute system commands, open applications, and perform basic tasks such as shutting down the computer.
-- **Jokes**: Nova can tell jokes using the pyjokes library to lighten the mood.
-- **Time and Date**: Nova can provide current time and date information using the datetime module.
+- **Remote Control**: Control non-smart home appliances from anywhere using your smartphone or computer.
+- **Cross-Platform Applications**: Enjoy a seamless experience across various platforms including iOS, Android, and web browsers.
+- **Customizable Settings**: Tailor settings for individual appliances, scheduling tasks, and creating automation routines.
+- **Real-time Monitoring**: Stay informed about the status of your appliances with real-time updates and notifications.
+- **Energy Efficiency**: Optimize energy usage by scheduling tasks and automating shutdowns when appliances are not in use.
+- **User Authentication**: Secure access to the application with user authentication and authorization mechanisms.
 
-## Installation
+## Supported Platforms
 
-1. Clone the repository:
+- **iOS**: Native application for iPhone and iPad devices.
+- **Android**: Native application for Android smartphones and tablets.
+- **Web**: Browser-based application accessible from any web-enabled device.
 
-    ```bash
-    git clone <repository_url>
-    ```
+## Getting Started
 
-## Usage
+To get started with Nove Home Automation, follow these steps:
 
-1. Run the `nova.py` script:
-
-    ```bash
-    python nova.py
-    ```
-
-2. Once the Nova Voice Assistant is running, wait for the prompt "How can I assist you?" and then speak your command.
-
-## Dependencies
-
-- [pyttsx3](https://pypi.org/project/pyttsx3/): Library for text-to-speech conversion.
-- [speech_recognition](https://pypi.org/project/SpeechRecognition/): Library for speech recognition.
-- [pyautogui](https://pypi.org/project/PyAutoGUI/): Library for GUI automation.
-- [pyjokes](https://pypi.org/project/pyjokes/): Library for fetching random jokes.
-- [requests](https://pypi.org/project/requests/): Library for making HTTP requests.
+1. Clone this repository to your local machine.
+2. Navigate to the directory of the platform-specific application you wish to run (e.g., `ios-app`, `android-app`, `web-app`).
+3. Follow the instructions in the respective README files for setting up and running the application on your chosen platform.
 
 ## Contributing
 
-Contributions to this project are welcome. If you encounter any bugs or have suggestions for new features, feel free to open an issue or submit a pull request.
+We welcome contributions from the community to enhance Nove Home Automation. If you'd like to contribute, please follow these guidelines:
+
+- Fork the repository and create a new branch for your feature or bug fix.
+- Make your changes and ensure they adhere to the project's coding standards.
+- Test your changes thoroughly.
+- Submit a pull request detailing the changes you've made and their purpose.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+For any inquiries or support regarding Nove Home Automation, feel free to contact us at [contact@noveautomation.com](mailto:contact@noveautomation.com).
+
